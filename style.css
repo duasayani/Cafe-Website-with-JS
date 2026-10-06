@@ -124,7 +124,7 @@ body {
     padding-left: 70px;
     margin-top: 40px;
     display: flex;
-    gap: 200px;
+    gap: 150px;
     position: sticky;
     top: 20px;
 }
@@ -152,6 +152,7 @@ ul li a:hover{
     color: #c49b66;
 }
 
+
 .btn .nav-btn{
     display: inline-block;
     margin-top: 0px;
@@ -166,6 +167,7 @@ ul li a:hover{
     cursor: pointer;
     text-decoration: none;
     transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    margin-right: 20px;
 }
 
 .btn .nav-btn:hover{
@@ -173,6 +175,27 @@ ul li a:hover{
     background-color: #c49b66;
     transform: translateY(-4px);
     color: black;
+}
+
+.btn .card{
+    display: inline-block;
+    margin-top: 0px;
+    color: #b5835a;
+    background-color: black;
+    border: 2px solid #c49b66;
+    font-size: 14px;
+    padding: 14px 34px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    
+}
+
+.btn .card:hover{
+    /* background: transparent; */
+    background-color: #c49b66;
+    transform: translateY(-4px);
 }
 
 
